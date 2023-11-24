@@ -28,7 +28,7 @@ function listen(){
       args: args
     }
     console.log(`got ${event}, ${args}`);
-    Scratch.vm.runtime.startHats('socketio_onEvent');
+    Scratch.vm.runtime.startHats('giganttechsocketio_onEvent');
   });
 };
 class SocketIO {
